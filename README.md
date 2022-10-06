@@ -39,8 +39,13 @@ If need ".config"
 1. apt install flex 
 2. apt install bison
 3. apt-get install libssl-dev
-4. cd /usr/src/linux
-5. make menuconfig
+4. apt-get install linux-headers-*
+5. apt-get install linux-source-*
+6. apt install git bc bison flex libssl-dev python2
+7. sudo wget https://raw.githubusercontent.com/RPi-Distro/rpi-source/master/rpi-source -O /usr/local/bin/rpi-source && sudo chmod +x /usr/local/bin/rpi-source && /usr/local/bin/rpi-source -q --tag-update
+8. rpi-source
+5. cd /usr/src/linux
+6. make menuconfig
 * #[save]
 * #[exit]
 
