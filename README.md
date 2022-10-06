@@ -6,7 +6,7 @@ It's very Hard to Remember how to compile Fucking Pos Driver for Raspberry Pi. S
 1. sudo apt-get update
 2. sudo apt-get dist-upgrade
 3. uname -a
-* 5.15.61-v7l+
+[ 5.15.61-v7l+ ]
 
 I attached C files of the driver so clone them:<br/>
 
