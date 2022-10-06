@@ -11,7 +11,7 @@ It's very Hard to Remember how to compile Fucking Pos Driver for Raspberry Pi. S
 I attached C files of the driver so clone them:<br/>
 
 ### B. Clone Repository
-1. git clone https://github.com/Mohammadpch/pos
+1. git clone https://github.com/bmg1/myPOS-Linux
 2. Extract Linux Driver_ttyPos V314.zip
 3. cd ttyPos_V314_20170802
 4. make
