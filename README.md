@@ -40,7 +40,7 @@ Now Go to C files and Make adn install them.
 
 if it's not inserted insert it manually:
 ### F. Insert kernel module
-1. cd /lib/modules/4.14.62-v7+/ttPos
+1. cd /lib/modules/5.15.61-v7l+/ttPos
 2. insmod ttyPos.ko
 3. and Check E2 again.
 
