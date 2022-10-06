@@ -6,6 +6,7 @@ It's very Hard to Remember how to compile Fucking Pos Driver for Raspberry Pi. S
 1. sudo apt-get update
 2. sudo apt-get dist-upgrade
 3. uname -a
+* 5.15.61-v7l+
 
 I attached C files of the driver so clone them:<br/>
 
@@ -16,7 +17,7 @@ I attached C files of the driver so clone them:<br/>
 4. make
 
 you see this Error:
-make[1]: *** /lib/modules/4.14.50-v7+/build: No such file or directory.  Stop.
+make[1]: *** /lib/modules/5.15.61-v7l+/build: No such file or directory.  Stop.
 Makefile:9: recipe for target 'all' failed
 make: *** [all] Error 2
 Don't worry you read these to solve these fucking problem.
@@ -24,8 +25,8 @@ Don't worry you read these to solve these fucking problem.
 ### C. Clone linux raspberry and Hard link it 
 1. cd /usr/src
 2. git clone --depth 1 https://github.com/raspberrypi/linux.git<br/>
-3. ln -s linux linux-4..18-v7+
-4. ln -s /usr/src/linux /lib/modules/4.1.18-v7+/build
+3. ln -s linux 5.15.61-v7l+
+4. ln -s /usr/src/linux /lib/modules/5.15.61-v7l+/build
 
 Now Go to C files and Make adn install them.
 ### D. Make Drive and Install
