@@ -34,6 +34,18 @@ Now Go to C files and Make adn install them.
 2. sudo make
 3. sudo make install
 
+If need ".config"
+### D.1 Make .config, menuconfig tools
+1. apt install flex 
+2. apt install bison
+3. apt-get install libssl-dev
+4. cd /usr/src/linux
+5. make menuconfig
+* #[save]
+* #[exit]
+
+
+
 ### E. Check module insertet or Not:
 1. lsmod
 2. try to find ttPos :)
